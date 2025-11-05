@@ -1,0 +1,47 @@
+:root {
+  --fundo:  #f6f3de;
+  --Destaquevermelho:  #d91d1d;
+  --caixas: #dcd6ac;
+  --texto: #010101;
+}
+.Entrada {
+    width: 220px;
+    height: 295px;
+    background-color: var(--fundo);
+    position: absolute;
+    top: 365px;
+    left: 16px;
+    border: 2.5px
+    solid var(--caixas);
+}
+.EntradaTituloCaixa {
+  background-color: var(--caixas);
+  width: 220px;
+  height: 30px;
+}
+.EntradaTitulo {
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  color: var(--fundo);
+  position: absolute;
+  top: -16px;
+  left: 70px;
+}
+.EntradasInPutsDiv {
+  position: absolute;
+  top: 25px;
+  left: -1px;
+  border: 1
+  solid var(--caixas);
+}
+.EntradasInput {
+  border: 2px
+  solid var(--caixas);
+  background-color: var(--fundo);
+  width: 215px;
+}
+.Seilaoque {
+  position: absolute;
+  left: 400px;
+}

@@ -1,0 +1,48 @@
+:root {
+  --fundo:  #f6f3de;
+  --Destaquevermelho:  #d91d1d;
+  --caixas: #dcd6ac;
+  --texto: #010101;
+}
+body {
+    background-color: var(--fundo);
+}
+.Apresentação {
+  position: absolute;
+  top: 1px;
+  left: 16px;
+  border:2.5px 
+  solid var(--caixas); 
+  background-color: var(--fundo);
+  padding:10px; 
+  width:200px; 
+  margin:1px;
+  height: 80px;
+}
+
+.MensagemApresentacao {
+  font-family: Arial, sans-serif;
+  font-size: 9px; 
+  color: var(--texto);     
+  line-height: 1;        
+  margin-top: 1px;        
+  margin-left: 1px;
+}
+.Apresentacaomes{
+  background-color: var(--caixas);
+  border: 2px
+  solid  var(#dcd6ac);
+  height: 20px;
+  width: 220px;
+  position: absolute;
+  top: 80px;
+  left: 0px;
+}
+.MesApresentacao {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  margin-top: 2px;
+  margin-left: 20px;
+}
+

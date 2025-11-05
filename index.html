@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planilha</title>
+    <link rel="stylesheet" href="./Apresentação/Apresentacao.css">
+    <link rel="stylesheet" href="./Superior (mensais)/TotalEntrada.css">
+    <link rel="stylesheet" href="./Reserva/Reserva.css">
+    <link rel="stylesheet" href="./Entradas/Entrada.css">
+</head>
+<body>
+
+ <!-- Divisao de apresentacao-->
+
+    <div class = "Apresentação">
+
+      <div class="MensagemApresentacao">
+
+        <p>Hoje é <span id="Data"></span></p>
+        <h1>Olá </h1>
+        <P>Bora se organizar?</P>
+  
+      </div>
+
+      <div class="Apresentacaomes">
+        <h1 class="MesApresentacao">Organização de <span id="MesData"></span></h1> 
+      </div> 
+
+    </div>
+    
+     <!-- Divisao de Entradas Mensais-->
+
+    <div class="TotalEntrada">
+
+      <p class="TextodeEntrada">Entrada || Total</p>
+
+      <input class="InputEntradaTotal" type="tipo de entrada">
+
+      <p class="MesAnteriorEntrada">Mês Anterior</p>
+
+      <div class="MesanteriorExibir">
+        <P ></P>
+
+      </div>
+    </div>
+
+     <!-- Divisao de Reservas-->
+
+    <div class="ReservaEmergencia">
+      
+      <div class="MensagemReserva">
+        <p class="MensagemReservatexto">Reserva de Emergência</p>
+    </div>
+      <div class="MetaGeral">
+
+      </div>
+      <div class="ReservadoMes">
+
+      </div>
+      <div class="TotalReservado">
+
+      </div>
+      <div class="FaltanteReserva">
+
+      </div>
+ 
+    </div>
+     
+     <!-- DIVISAO DE ENTRADAS PRINCIPAI -->
+    <div class="Entrada">
+      <div class="EntradaTituloCaixa">
+        <p class="EntradaTitulo">Entrada</p>
+        <div class="EntradasInPutsDiv">
+          
+          <input  class="EntradasInput" type="number">
+          <input  class="EntradasInput" type="number">
+          <input  class="EntradasInput" type="number">
+          <input  class="EntradasInput" type="number">
+          <input  class="EntradasInput" type="number">
+          <input  class="EntradasInput" type="number">
+          <input  class="EntradasInput" type="number">
+          <input  class="EntradasInput" type="number">
+          <input  class="EntradasInput" type="number">
+          <input  class="EntradasInput" type="number">
+          <input  class="EntradasInput" type="number">
+          <input  class="EntradasInput" type="number">
+          <input  class="EntradasInput" type="number">
+        </div>
+        <div class="InputCategoriaEntrada">
+           <input type="text" name="" id="">
+        </div>
+      </div>
+    </div>
+  <div class="Seilaoque" id="resultado"> Resultado : 0</div>
+    <script src="./Apresentação/Data.js"></script>
+    <script src="./Entradas/Entrada.js"></script>
+</body>
+</html>

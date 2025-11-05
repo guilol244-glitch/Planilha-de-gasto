@@ -1,0 +1,36 @@
+:root {
+  --fundo:  #f6f3de;
+  --Destaquevermelho:  #d91d1d;
+  --caixas: #dcd6ac;
+  --texto: #010101;
+}
+.MetaGeral {
+  position: relative;
+  top: 100px;
+  left: 8px;
+  border:2px 
+  solid var(--caixas); 
+  background-color: var(--caixas);
+  padding:10px; 
+  width:200px; 
+  margin:1px;
+  height: 230px;
+  z-index: 1;
+}
+
+.MensagemReserva {
+  position: absolute;
+  top: 120px;
+  left: 25px;
+  height: 30px;
+  width: 210px;
+  background-color: var(--Destaquevermelho) ;
+  z-index: 10;
+}
+.MensagemReservatexto{
+  position: absolute;
+  left: 25px;
+  top: -4px;
+  margin-top:10px;
+  color: var(--fundo);
+}
