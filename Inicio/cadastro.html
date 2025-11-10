@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<input id="email" type="text">
+<input id="senha" type="password">
+<button onclick="cadastrar()">Cadastrar</button>
+ <script src="../Entradas/Sever.js"></script>
+<script>
+async function cadastrar() {
+  const email = document.getElementById('email').value;
+  const senha = document.getElementById('senha').value;
+
+  const res = await fetch('http://localhost:3000/cadastro', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({ email, senha })
+  });
+
+  console.log(await res.json());
+}
+
+</script>
+</body>
+</html>

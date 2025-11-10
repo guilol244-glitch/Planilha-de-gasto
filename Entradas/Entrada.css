@@ -30,18 +30,34 @@
 }
 .EntradasInPutsDiv {
   position: absolute;
-  top: 25px;
-  left: -1px;
-  border: 1
+  top: 30px;
+  left: 149px;
+  border: 0px
   solid var(--caixas);
 }
 .EntradasInput {
   border: 2px
   solid var(--caixas);
   background-color: var(--fundo);
-  width: 215px;
+  display: block;
+  width: 65px;
+  height: 10.8px;
+}
+.InputCategoriaEntradaDiv {
+  position: absolute;
+  top: 30px;
+  left: -2px;
+}
+.EntradaInputCategoria{
+  border: 2px
+  solid var(--caixas);
+  background-color: var(--fundo);
+  display: block;
+  width: 145px;
+  height: 10.8px;
 }
 .Seilaoque {
   position: absolute;
-  left: 400px;
+  top: 200px;
+  left: 290px;
 }
